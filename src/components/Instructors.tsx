@@ -36,7 +36,7 @@ function Instructors() {
   return (
     <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
       <WavyBackground className="w-full max-w-6xl mx-auto flex flex-col items-center justify-center h-full">
-        <h2 className="text-2xl md:text-5xl font-bold text-center text-white mb-8">
+        <h2 className="text-2xl md:text-5xl leading-8 font-extrabold tracking-tight font-sans text-center text-white mb-8">
           ERSTKLASSIGES WOHNEN IM NATURNAHEN UMFELD NAHE DER STADT
         </h2>
         <p className="text-base md:text-lg text-center text-white mb-4">
