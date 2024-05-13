@@ -34,7 +34,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="mt-16 font-bold sm:mb-6 text-4xl md:text-5xl text-center text-white"
+        className="mt-16 font-bold sm:mb-6 text-4xl md:text-7xl text-center text-white"
       >
         KONTAKT
       </motion.h2>
