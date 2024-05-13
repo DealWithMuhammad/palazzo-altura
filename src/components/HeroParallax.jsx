@@ -100,10 +100,10 @@ export const Header = () => {
       <h1 className="text-4xl md:text-7xl uppercase font-bold text-[#f2994a]">
         PALAZZO ALTURA DI MARIA <br /> ERSTKLASSIG WOHNEN
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      <p className="max-w-2xl text-white text-base md:text-xl mt-8">
+        Erstklassiges Wohnen im naturnahen Umfeld nahe der Stadt: Palazzo Altura
+        Di Maria - ein Juwel des anspruchsvollen Designs und der zeitlosen
+        Schönheit.
       </p>
     </div>
   );
@@ -121,10 +121,7 @@ export const ProductCard = ({ product, translate }) => {
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
-      <Link
-        href={""}
-        className="block group-hover/product:shadow-2xl "
-      >
+      <Link href={""} className="block group-hover/product:shadow-2xl ">
         <Image
           src={product.image}
           height="600"
