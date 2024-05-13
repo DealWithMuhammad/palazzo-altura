@@ -7,6 +7,7 @@ import WhyChooseUs from "@/components/ui/WhyChooseUs";
 import Image from "next/image";
 import { HeroParallax } from "@/components/HeroParallax";
 import Highlights from "@/components/Highlights";
+import { VortexDemo } from "@/components/Vortex";
 
 const products = [
   {
@@ -104,6 +105,7 @@ export default function Home() {
       {/* <h1 className="text-3xl text-center">Loki Music Academy</h1> */}
       <HeroParallax products={products} />
       <Instructors />
+      <VortexDemo />
       <FeaturedCourses />
       <WhyChooseUs />
       <Highlights />
