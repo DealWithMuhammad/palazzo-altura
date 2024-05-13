@@ -6,6 +6,9 @@ export function VortexDemo() {
     <div className="w-[calc(100%-4rem)] rounded-md  h-[40rem] overflow-hidden">
       <Vortex
         backgroundColor="black"
+        rangeY={800}
+        particleCount={500}
+        baseHue={260}
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <h2 className="text-white text-2xl md:text-5xl font-bold text-center">
