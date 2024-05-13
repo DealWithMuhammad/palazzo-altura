@@ -37,22 +37,27 @@ function Navbar() {
         <div className="flex flex-col items-center justify-center text-white h-screen space-y-8 text-4xl font-bold tracking-wide lg:text-6xl xl:text-7xl">
           <Link href="./">
             <p className="headerLink" onClick={toggleMenu}>
-              HOME
+              STARTSEITE
             </p>
           </Link>
           <Link href="./about">
             <p className="headerLink" onClick={toggleMenu}>
-              ABOUT
+              HIGHLIGHTS
             </p>
           </Link>
           <Link href="./projects">
             <p className="headerLink" onClick={toggleMenu}>
-              PROJECTS
+              LAGE
             </p>
           </Link>
           <Link href="./contact">
             <p className="headerLink" onClick={toggleMenu}>
-              CONTACT
+              WOHNUNGEN
+            </p>
+          </Link>
+          <Link href="./contact">
+            <p className="headerLink" onClick={toggleMenu}>
+              KONTAKT
             </p>
           </Link>
           {/* Add more menu items as needed */}
