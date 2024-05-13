@@ -81,4 +81,6 @@ const config: Config = {
   },
   plugins: [addVariablesForColors, addSvgPatterns, nextui()],
 };
+
+
 export default config;

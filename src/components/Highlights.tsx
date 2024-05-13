@@ -8,7 +8,7 @@ import courseData from "@/data/music_courses.json";
 function Highlights() {
   return (
     <div id="highlight">
-      <div className="min-h-screen bg-black py-12 pt-36">
+      <div className="min-h-screen bg-black  py-12 pt-36">
         <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white">
           HIGHLIGHTS
         </h1>

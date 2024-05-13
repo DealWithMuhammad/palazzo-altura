@@ -121,7 +121,7 @@ const Navbar = () => {
           <motion.li variants={listItemVariants}>
             <a
               className="headerLink cursor-pointer"
-              onClick={() => handleMenuLinkClick("contact")}
+              onClick={() => handleMenuLinkClick("wohnungen")}
             >
               WOHNUNGEN
             </a>

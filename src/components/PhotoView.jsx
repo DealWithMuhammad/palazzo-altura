@@ -11,7 +11,7 @@ export default function Photo() {
   ];
 
   return (
-    <section className="bg-[#111827] py-20">
+    <section id="wohnungen" className="bg-[#111827] py-20">
       <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-20 text-white">
         WOHNUNGEN
       </h1>
