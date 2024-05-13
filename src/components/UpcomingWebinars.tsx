@@ -48,7 +48,7 @@ function UpcomingWebinars() {
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
             FAQs
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 text-4xl md:text-7xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             Häufig gestellte Fragen
           </p>
         </div>
