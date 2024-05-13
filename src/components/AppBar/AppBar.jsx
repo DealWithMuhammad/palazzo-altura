@@ -1,13 +1,10 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { TbMenu } from "react-icons/tb";
-import { CiMail, CiInstagram } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
-
 import Logo from "../../../public/logo.png"; // Update the path to your image file
-let isScrolled = false;
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,11 +13,22 @@ function Navbar() {
     setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
   };
 
+  // Smooth scrolling function
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
-    <header className="sticky bg-black top-0 z-30 flex w-full py-6 items-center justify-between p-4 navigation ">
+    <header className="sticky bg-black top-0 z-30 flex w-full py-6 items-center justify-between p-4 navigation">
+      {/* Hamburger menu */}
       <div className="flex items-center justify-center px-4">
-        {/* Hamburger menu */}
-        <div className="hamburger-container " onClick={toggleMenu}>
+        <div className="hamburger-container" onClick={toggleMenu}>
           <div className={`hamburger ${isMenuOpen ? "active" : ""}`}>
             <div className="line line1"></div>
             <div className="line line2"></div>
@@ -35,34 +43,49 @@ function Navbar() {
         }`}
       >
         <div className="flex flex-col items-center justify-center text-white h-screen space-y-8 text-4xl font-bold tracking-wide lg:text-6xl xl:text-7xl">
-          <Link href="./">
+          <Link href="/">
             <p className="headerLink" onClick={toggleMenu}>
               STARTSEITE
             </p>
           </Link>
-          <Link href="./about">
-            <p className="headerLink" onClick={toggleMenu}>
-              HIGHLIGHTS
-            </p>
-          </Link>
-          <Link href="./projects">
-            <p className="headerLink" onClick={toggleMenu}>
-              LAGE
-            </p>
-          </Link>
-          <Link href="./contact">
-            <p className="headerLink" onClick={toggleMenu}>
-              WOHNUNGEN
-            </p>
-          </Link>
-          <Link href="./contact">
-            <p className="headerLink" onClick={toggleMenu}>
-              KONTAKT
-            </p>
-          </Link>
-          {/* Add more menu items as needed */}
+          <a
+            className="headerLink"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection("highlights");
+            }}
+          >
+            HIGHLIGHTS
+          </a>
+          <p
+            className="headerLink"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection("lage");
+            }}
+          >
+            LAGE
+          </p>
+          <p
+            className="headerLink"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection("wohnungen");
+            }}
+          >
+            WOHNUNGEN
+          </p>
+          <p
+            className="headerLink"
+            onClick={() => {
+              toggleMenu();
+              scrollToSection("kontakt");
+            }}
+          >
+            KONTAKT
+          </p>
           <RxCross1
-            className="h-10 w-10 cursor-pointer absolute text-white  transition-transform ease-in-out duration-300 top-4 left-4"
+            className="h-10 w-10 cursor-pointer absolute text-white transition-transform ease-in-out duration-300 top-4 left-4"
             onClick={toggleMenu}
           />
         </div>
@@ -82,7 +105,7 @@ function Navbar() {
       </div>
       <div className="flex items-center justify-center gap-x-5 md:gap-x=8">
         <div className="text-4xl text-white icon">
-          <a href="https://www.instagram.com/mariawaseem_arts/" target="_blank">
+          <a href="https//www.instagram.com" target="_blank">
             <CiInstagram />
           </a>
         </div>
