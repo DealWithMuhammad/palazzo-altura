@@ -1,9 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button, Input, Textarea } from "@nextui-org/react";
+import { Input, Textarea } from "@nextui-org/react";
 import { useState } from "react";
 import { BsMailbox } from "react-icons/bs";
+import Button from "../Button";
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -99,9 +100,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <Button size="md" fullWidth onClick={onSubmit}>
-            Submit
-          </Button>
+          <Button className="">Submit</Button>
         </motion.div>
       </div>
     </div>
