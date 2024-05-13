@@ -8,7 +8,7 @@ export function VortexDemo() {
         backgroundColor="black"
         rangeY={800}
         particleCount={500}
-        baseHue={260}
+        baseHue={1250}
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <h2 className="text-white text-2xl md:text-5xl font-bold text-center">
