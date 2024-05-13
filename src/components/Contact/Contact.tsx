@@ -11,7 +11,7 @@ export default function Contact() {
     msg: "",
   });
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     const { name, value } = e.target;
     setForm((prevForm) => ({
       ...prevForm,
@@ -30,17 +30,33 @@ export default function Contact() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="mt-16 sm:mb-6 text-xl text-center sm:text-5xl dark:text-white text-black"
+        className="mt-16 font-bold sm:mb-6 text-4xl md:text-5xl text-center text-white"
       >
-        Contact Us
+        KONTAKT
       </motion.h2>
       <motion.h6
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-sm text-center  dark:text-white text-black"
+        className="text-xl text-center my-2 dark:text-white text-black"
       >
-        Share your thoughts with us!
+        FREUEN WIR UNS ÜBER IHRE KONTAKTAUFNAHME
+      </motion.h6>
+      <motion.h6
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-xl text-center my-2 dark:text-white text-black"
+      >
+        FREUEN WIR UNS ÜBER IHRE KONTAKTAUFNAHME
+      </motion.h6>
+      <motion.h6
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-xl text-center my-2 dark:text-white text-black"
+      >
+        ELEFONISCH 📞0160 4603901 ODER PER KONTAKTFORMULAR
       </motion.h6>
       <br />
       <div className="mx-10">
@@ -55,7 +71,7 @@ export default function Contact() {
             placeholder="you@example.com"
             labelPlacement="outside"
             startContent={
-              <BsMailbox className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
+              <BsMailbox className="text-2xl  text-default-400 pointer-events-none flex-shrink-0" />
             }
             name="email"
             value={form.email}
