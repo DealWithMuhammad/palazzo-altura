@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "ERSTKLASSIGES DESIGN",
+      "slug": "ERSTKLASSIGES-DESIGN",
+      "description": "Palazzo Altura Di Maria, wo erstklassiges Wohnen zur Realität wird.\n\n Unsere exklusive Wohnanlage wurde mit einem klaren Ziel entworfen: den Ansprüchen gerecht zu werden und ein erstklassiges Wohnerlebnis zu bieten. Jedes Detail, von der Architektur bis zur Auswahl der Materialien, wurde sorgfältig ausgewählt, um einen unvergleichlichen Standard an Komfort zu gewährleisten.\n\n Treten Sie ein in eine Welt des anspruchsvollen Designs und der handwerklichen Qualität. Der Palazzo Altura Di Maria verspricht seinen Bewohnern nicht nur ein Zuhause, sondern ein Lebensstil, der die Sinne beflügelt und die Erwartungen übertrifft.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "https://palazzo-altura-di-maria.de/file/i/cb533cbc490177112.png"
+    },
+    {
+      "id": 2,
+      "title": "ERSTKLASSIGE AUSSTATTUNG",
+      "slug": "ERSTKLASSIGE-AUSSTATTUNG",
+      "description": "Treten Sie ein und erleben Sie die zeitlose Schönheit von Parkettböden, die jeden Raum mit Wärme und Luxus erfüllen. Die großzügigen Fenster lassen reichlich natürliches Licht herein und bieten einen atemberaubenden Blick auf die Umgebung. Ihre Sinne werden von der Weite und dem Lichtspiel begeistert sein.\n\n Die hohen Türen verleihen den Räumen ein majestätisches Ambiente und schaffen ein Gefühl von Großzügigkeit und Eleganz. Jedes Detail wurde mit höchster Präzision und Sorgfalt ausgeführt, von den exquisiten Armaturen bis hin zu den exklusiven Oberflächen.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "https://palazzo-altura-di-maria.de/file/i/223e39a3499898112.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "ERSTKLASSIGER DACHGARTEN",
+      "slug": "ERSTKLASSIGER-DACHGARTEN",
+      "description": "Willkommen zu Ihrem ganz persönlichen Rückzugsort über den Dächern der Stadt! Diese Penthouse-Wohnung bietet nicht nur exklusiven Wohnraum, sondern auch einen einzigartigen Dachgarten, der Ihre Sinne beflügeln wird.\n\n Der Dachgarten ist ein wahres Juwel dieser Immobilie, ausgestattet mit einem hochwertigen Lamellendach, Seitenverglasung und Sonnenschutz. Diese Details garantieren nicht nur eine optimale Nutzung des Raums zu jeder Tageszeit, sondern schaffen auch eine Oase der Ruhe und Entspannung, die Sie nirgendwo sonst finden werden.\n\nGenießen Sie die spektakuläre Aussicht und die frische Luft, während Sie sich in Ihrem privaten Rückzugsort verwöhnen lassen. Ob Sie sich für einen Moment der Ruhe zurückziehen oder Ihre Freunde zu einem exklusiven Outdoor-Erlebnis einladen möchten, dieser Dachgarten bietet unendliche Möglichkeiten.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "https://palazzo-altura-di-maria.de/file/i/27302779b55037312.png"
+    },
+    {
+      "id": 4,
+      "title": "ERSTKLASSIGE GARAGE",
+      "slug": "ERSTKLASSIGE-GARAGE",
+      "description": "Diese Tiefgarage bietet nicht nur einen sicheren und geschützten Ort für Ihre Fahrzeuge, sondern auch eine Reihe von erstklassigen Annehmlichkeiten, die Ihren Lebensstil bereichern. Jeder Stellplatz verfügt über einen eigenen Ladeanschluss, um den wachsenden Bedarf an Elektrofahrzeugen zu erfüllen und eine umweltbewusste Lebensweise zu fördern.\n\nGenießen Sie die Leichtigkeit des Zugangs zu Ihrer privaten Parkanlage, während Sie gleichzeitig das exklusive Ambiente und Ihre erstklassige Wohnanlage genießen. Diese Tiefgarage ist nicht nur eine Investition in Ihren Alltag, sondern auch in eine Zukunft, die auf Nachhaltigkeit und modernen Komfort setzt.",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "https://palazzo-altura-di-maria.de/file/i/5fb73428e75077112.png"
+    }
+  ]
+}
