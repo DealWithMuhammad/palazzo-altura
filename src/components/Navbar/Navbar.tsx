@@ -63,7 +63,9 @@ const Navbar = () => {
     >
       <div className={Styles.navigation}>
         <button className={Styles.button}>
-          <Image width={80} height={80} src="/logo.png" alt="" />
+          <a href="/">
+            <Image width={80} height={80} src="/logo.png" alt="AppLogo" />
+          </a>
         </button>
         <div
           className={Styles.burgerMenuContainer}
