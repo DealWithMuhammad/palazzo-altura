@@ -26,7 +26,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center align-middle mb-40 mt-20">
+    <div
+      id="contactform"
+      className="w-full flex flex-col justify-center align-middle mb-40 mt-20"
+    >
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -39,7 +42,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-xl text-center my-2 dark:text-white text-black"
+        className="text-xl text-center my-2 text-white"
       >
         FREUEN WIR UNS ÜBER IHRE KONTAKTAUFNAHME
       </motion.h6>
@@ -47,7 +50,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-xl text-center my-2 dark:text-white text-black"
+        className="text-xl text-center my-2 text-white "
       >
         FREUEN WIR UNS ÜBER IHRE KONTAKTAUFNAHME
       </motion.h6>
@@ -55,7 +58,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-xl text-center my-2 dark:text-white text-black"
+        className="text-xl text-center my-2 text-white"
       >
         ELEFONISCH 📞0160 4603901 ODER PER KONTAKTFORMULAR
       </motion.h6>
