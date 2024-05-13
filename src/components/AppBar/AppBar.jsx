@@ -34,7 +34,7 @@ function Navbar() {
   };
 
   return (
-    <header className="sticky bg-black top-0 z-30 flex w-full py-6 items-center justify-between p-4 navigation ">
+    <header className=" fixed bg-black top-0 z-30 flex w-full py-6 items-center justify-between p-4 navigation ">
       <div className="flex items-center justify-center px-4">
         {/* Hamburger menu */}
         <div className="hamburger-container " onClick={toggleMenu}>
@@ -53,29 +53,32 @@ function Navbar() {
         }`}
       >
         <div className="flex flex-col items-center justify-center text-white h-screen space-y-8 text-4xl font-bold tracking-wide lg:text-6xl xl:text-7xl">
-          <p className="headerLink" onClick={() => handleMenuLinkClick("home")}>
+          <p
+            className="headerLink cursor-pointer"
+            onClick={() => handleMenuLinkClick("home")}
+          >
             STARTSEITE
           </p>
           <p
-            className="headerLink"
+            className="headerLink cursor-pointer"
             onClick={() => handleMenuLinkClick("highlight")}
           >
             HIGHLIGHTS
           </p>
           <p
-            className="headerLink"
+            className="headerLink cursor-pointer"
             onClick={() => handleMenuLinkClick("projects")}
           >
             LAGE
           </p>
           <p
-            className="headerLink"
+            className="headerLink cursor-pointer"
             onClick={() => handleMenuLinkClick("contact")}
           >
             WOHNUNGEN
           </p>
           <p
-            className="headerLink"
+            className="headerLink cursor-pointer"
             onClick={() => handleMenuLinkClick("contact")}
           >
             KONTAKT
