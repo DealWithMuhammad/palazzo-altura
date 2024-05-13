@@ -3,7 +3,7 @@ import { Vortex } from "./ui/vortex";
 
 export function VortexDemo() {
   return (
-    <div className="w-[calc(100%-4rem)] rounded-md  h-[40rem] overflow-hidden">
+    <div className="w-[calc(100%-0rem)] rounded-md  h-[40rem] overflow-hidden">
       <Vortex
         backgroundColor="black"
         rangeY={800}
