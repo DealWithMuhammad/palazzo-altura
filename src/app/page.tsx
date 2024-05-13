@@ -10,6 +10,7 @@ import Contact from "@/components/Contact/Contact";
 import Highlights from "@/components/Highlights";
 import { VortexDemo } from "@/components/Vortex";
 import courseData from "@/data/music_courses.json";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Home() {
   return (
@@ -28,6 +29,11 @@ export default function Home() {
       <WhyChooseUs />
       <Highlights />
       <TestimonialCards />
+      <TextGenerateEffect
+        words={
+          "Erleben Sie das erstklassige Wohnen in der Wohnanlage Palazzo Altura Di Maria, wo Sie eine harmonische Verbindung von naturnahem Umfeld und der Nähe zur Stadt genießen können. Lassen Sie sich von der erstklassigen Ausstattung, der idyllischen Umgebung und der erstklassigen Lage begeistern.."
+        }
+      />
       <Contact />
       <UpcomingWebinars />
       <Footer />
