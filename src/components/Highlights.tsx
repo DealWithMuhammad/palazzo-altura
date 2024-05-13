@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
-import Link from "next/link";
+// import Link from "next/link";
 
 function Highlights() {
   return (
