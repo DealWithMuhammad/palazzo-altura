@@ -1,86 +1,70 @@
 "use client";
-import Link from 'next/link'
-import React from 'react'
-import { HoverEffect } from './ui/card-hover-effect'
+import Link from "next/link";
+import React from "react";
+import { HoverEffect } from "./ui/card-hover-effect";
 
 function UpcomingWebinars() {
   const featuredWebinars = [
     {
-      title: 'Understanding Music Theory',
+      title: "Was ist das Palazzo Altura Di Maria?",
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
-      isFeatured: true
+        "Das Palazzo Altura Di Maria ist eine exklusive Wohnanlage, die erstklassiges Wohnen im naturnahen Umfeld in der Nähe der Stadt bietet.",
+      slug: "understanding-music-theory",
+      isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: "Welche Wohnungsgrößen werden angeboten?",
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
-      isFeatured: true
+        "Die Wohnungen in Palazzo Altura Di Maria bieten eine Vielfalt von 53 qm bis 163 qm Wohnfläche, um den unterschiedlichen Bedürfnissen gerecht zu werden.",
+      slug: "the-art-of-songwriting",
+      isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: "Welche Highlights bietet das Palazzo Altura Di Maria?",
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
-      isFeatured: true
+        "Das Palazzo Altura Di Maria bietet erstklassiges Design, hochwertige Ausstattung, einen erstklassigen Dachgarten und eine erstklassige Garage mit Ladeanschlüssen für Elektrofahrzeuge.",
+      slug: "mastering-your-instrument",
+      isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: "Welche Annehmlichkeiten bietet die Lage?",
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
-      isFeatured: true
+        "Die Wohnanlage liegt in einer bevorzugten Wohngegend in Nördlingen, die eine harmonische Verbindung von naturnaher Umgebung und der Nähe zur Stadt bietet. Grüne Wiesen und nahegelegene Waldgebiete laden zu Aktivitäten im Freien ein.",
+      slug: "music-production-essentials",
+      isFeatured: true,
     },
     {
-      title: 'Live Performance Techniques',
+      title: "Wie kann ich mehr über diese Immobilie erfahren?",
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
-      slug: 'live-performance-techniques',
-      isFeatured: true
+        "Sie können sich telefonisch unter 0160 4603901 melden oder das Kontaktformular ausfüllen, um weitere Informationen zu erhalten.",
+      slug: "live-performance-techniques",
+      isFeatured: true,
     },
-    {
-      title: 'Digital Music Marketing',
-      description:
-        'Learn how to promote your music effectively in the digital age.',
-      slug: 'digital-music-marketing',
-      isFeatured: true
-    }
-  ]
+  ];
 
   return (
     <div className="p-12 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
-            FEATURED WEBINARS
+            FAQ's
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Enhance your musical journey
+            Häufig gestellte Fragen
           </p>
         </div>
         <div className="mt-10">
-            <HoverEffect 
-            items={featuredWebinars.map(webinar => (
-                {
-                title: webinar.title,
-                description: webinar.description,
-                link: webinar.slug,
-                }
-             ))} />
-        </div>
-        <div className="mt-10 text-center">
-          <Link
-            href={'/'}
-            className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200 ease-in-out"
-          >
-            View All Webinars
-          </Link>
+          <HoverEffect
+            items={featuredWebinars.map((webinar) => ({
+              title: webinar.title,
+              description: webinar.description,
+              link: webinar.slug,
+            }))}
+          />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default UpcomingWebinars
+export default UpcomingWebinars;

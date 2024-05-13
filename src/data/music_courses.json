@@ -17,7 +17,7 @@
       "description": "Treten Sie ein und erleben Sie die zeitlose Schönheit von Parkettböden, die jeden Raum mit Wärme und Luxus erfüllen. Die großzügigen Fenster lassen reichlich natürliches Licht herein und bieten einen atemberaubenden Blick auf die Umgebung. Ihre Sinne werden von der Weite und dem Lichtspiel begeistert sein.\n\n Die hohen Türen verleihen den Räumen ein majestätisches Ambiente und schaffen ein Gefühl von Großzügigkeit und Eleganz. Jedes Detail wurde mit höchster Präzision und Sorgfalt ausgeführt, von den exquisiten Armaturen bis hin zu den exklusiven Oberflächen.",
       "price": 109.99,
       "instructor": "Jane Smith",
-      "isFeatured": false,
+      "isFeatured": true,
       "image": "https://palazzo-altura-di-maria.de/file/i/223e39a3499898112.jpeg"
     },
     {
